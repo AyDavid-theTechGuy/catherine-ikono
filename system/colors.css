@@ -1,0 +1,47 @@
+:root {
+    /* =========================
+       BRAND COLORS
+       ========================= */
+    --color-primary: #08213A;
+    --color-primary-dark: #051522;
+    --color-primary-light: #12395C;
+
+    --color-accent: #00C0EC;
+    --color-accent-dark: #0099BD;
+    --color-accent-light: #67D9F3;
+
+    --color-gold: #EAB308;
+    --color-gold-light: #FEF3C7;
+
+    --color-white: #FFFFFF;
+
+    /* BACKGROUND COLORS */
+    --bg-main: #F8FAFC;
+    --bg-section-alt: #E0F2FE;
+    --bg-dark: #08213A;
+
+    /* TEXT COLORS */
+    --text-primary: #1E293B;
+    --text-secondary: #64748B;
+    --text-inverse: #FFFFFF;
+
+    /* BORDER & UI */
+    --border-color: #CBD5E1;
+    --input-bg: #FFFFFF;
+
+    /* BUTTONS */
+    --btn-primary-bg: #00C0EC;
+    --btn-primary-text: #08213A;
+    --btn-primary-hover: #0099BD;
+
+    --btn-secondary-bg: transparent;
+    --btn-secondary-text: #08213A;
+    --btn-secondary-border: #08213A;
+
+    /* GRADIENTS */
+    --gradient-primary:
+        linear-gradient(135deg, #08213A, #00C0EC);
+
+    --gradient-accent:
+        linear-gradient(135deg, #00C0EC, #67D9F3);
+}

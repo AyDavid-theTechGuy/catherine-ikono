@@ -1,0 +1,104 @@
+<header
+    class="fixed inset-x-0 top-0 z-50 border-b border-[var(--border-color)] bg-[var(--bg-main)]/90 backdrop-blur-lg">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+
+        <!-- Brand -->
+        <a href="#top" class="flex items-center gap-3">
+
+            <img src="assets/catherine-anthony-ikono-1.jpg" alt="Catherine Anthony Ikono"
+                class="h-12 w-12 rounded-xl object-cover border border-[var(--border-color)]" />
+
+            <div>
+                <h1 class="text-sm font-bold text-[var(--text-primary)]">
+                    Catherine Anthony Ikono
+                </h1>
+
+                <p class="text-xs text-[var(--text-secondary)]">
+                    Digital Skills & Remote Work Mentor
+                </p>
+            </div>
+
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden items-center gap-8 md:flex">
+
+            <a href="#about"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                About
+            </a>
+
+            <a href="#offers"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                Offers
+            </a>
+
+            <a href="#resources"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                Free Resources
+            </a>
+
+            <a href="#results"
+                class="text-sm font-medium text-[var(--text-secondary)] transition hover:text-[var(--color-primary)]">
+                Results
+            </a>
+
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="hidden md:flex">
+            <a href="#offers"
+                class="inline-flex items-center gap-2 rounded-2xl bg-[var(--btn-primary-bg)] px-5 py-2.5 text-sm font-semibold text-[var(--btn-primary-text)] transition hover:bg-[var(--btn-primary-hover)]">
+                Explore My Offers
+                <i class="bi bi-arrow-up-right"></i>
+            </a>
+        </div>
+
+        <!-- Mobile Button -->
+        <button type="button"
+            class="inline-flex items-center justify-center rounded-xl border border-[var(--border-color)] bg-white px-3 py-2 text-[var(--text-primary)] transition hover:bg-[var(--bg-section-alt)] md:hidden"
+            aria-controls="mobileNav" aria-expanded="false" onclick="toggleMobileNav()">
+            <span class="sr-only">Open menu</span>
+
+            <i id="menuIcon" class="bi bi-list text-xl"></i>
+        </button>
+
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobileNav" class="hidden border-t border-[var(--border-color)] bg-[var(--bg-main)]">
+        <div class="mx-auto max-w-7xl px-4 py-5">
+
+            <div class="grid gap-2">
+
+                <a href="#about" onclick="toggleMobileNav(false)"
+                    class="rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    About
+                </a>
+
+                <a href="#offers" onclick="toggleMobileNav(false)"
+                    class="rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    Offers
+                </a>
+
+                <a href="#resources" onclick="toggleMobileNav(false)"
+                    class="rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    Free Resources
+                </a>
+
+                <a href="#results" onclick="toggleMobileNav(false)"
+                    class="rounded-xl px-3 py-3 text-sm font-medium text-[var(--text-secondary)] transition hover:bg-[var(--bg-section-alt)] hover:text-[var(--color-primary)]">
+                    Results
+                </a>
+
+                <a href="#offers" onclick="toggleMobileNav(false)"
+                    class="mt-2 inline-flex items-center justify-center gap-2 rounded-2xl bg-[var(--btn-primary-bg)] px-5 py-3 text-sm font-semibold text-[var(--btn-primary-text)] transition hover:bg-[var(--btn-primary-hover)]">
+                    Explore My Offers
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</header>
